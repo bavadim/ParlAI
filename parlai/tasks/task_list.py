@@ -289,5 +289,12 @@ task_list = [
         "task": "dialogue_qe",
         "tags": [ "All" ],
         "description": "Human-bot dialogues labelled for quality at the level of dialogues. Can be used to train dialogue-level metric for dialogue systems. Link to dataset: http://convai.io/data/"
+    },
+    {
+        "id": "Utterance_QE",
+        "display_name": "Utterance_QE",
+        "task": "utterance_qe",
+        "tags": [ "All" ],
+        "description": "Human-bot dialogues partially labelled for quality at the utterance level (good/bad utterances). Can be used to train utterance-level metric for dialogue systems (see https://arxiv.org/abs/1708.01759 for task description). Link to dataset: http://convai.io/data/"
     }
 ]
